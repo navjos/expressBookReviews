@@ -115,7 +115,7 @@ function getBookList(){
       if (book_) {
         resolve(book_);
       }else{
-        reject("Unable to find book!");
+        reject("Sorry pal, can't find book!");
       }    
     })
   }
